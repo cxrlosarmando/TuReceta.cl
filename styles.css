@@ -67,6 +67,14 @@ body {
     background-color: darkkhaki;
 }
 
+
+.carousel-item img {
+
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+    
 #titulo-pagina {
     display: flex;
     justify-content: center;
@@ -100,13 +108,17 @@ div.card {
     margin: 0.5rem;
 }
 
+div.card img {
+    object-fit: cover;
+}
+
 div.card:hover {
 
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.6);
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 2.4rem;
