@@ -12,6 +12,12 @@ header {
     flex-direction: column
 }
 
+/* #headerContacto {
+    
+    height: 80px;
+} */
+
+
 header a {
     color: black;
     display: flex;
@@ -39,6 +45,9 @@ html, body {
     position: relative; 
 }
 
+#mainContacto {
+    height: calc(100vh - 80px - 120px)
+}
 
 .flex-container {
     display: flex;
@@ -118,6 +127,7 @@ div.card:hover {
 }
 
 footer {
+   
     position: relative;
     bottom: 0;
     width: 100%;
@@ -126,6 +136,9 @@ footer {
     color: #222;
 }
 
+/* #footerContacto {
+    height: 120px
+} */
 
 footer a {
     color: #222;
