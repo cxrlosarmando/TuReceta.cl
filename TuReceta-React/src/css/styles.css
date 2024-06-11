@@ -1,0 +1,161 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin: 0%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column
+}
+
+/* #headerContacto {
+    
+    height: 80px;
+} */
+
+
+header a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #e4e4e1;
+
+}
+
+.navbar {
+    background-color: antiquewhite;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+#mainContacto {
+    height: calc(100vh - 80px - 120px)
+}
+
+.flex-container {
+    display: flex;
+    margin: 6px;
+}
+
+ul {
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    /* background-color: beige; */
+    justify-content: center;
+    margin: 0%;
+    padding: 8px 8px 8px 8px
+}
+
+nav.item {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: darkkhaki;
+}
+
+
+.carousel-item img {
+
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+    
+#titulo-pagina {
+    display: flex;
+    justify-content: center;
+
+}
+
+#Pie {
+    display: flex;
+    justify-content: center;
+}
+
+#Destacadas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 6px;
+    padding: 10px;
+}
+
+section #Pescado {
+    float: right;
+}
+
+section {
+    display: flex;
+    justify-content: row;
+    flex-direction: column;
+}
+
+div.card {
+    margin: 0.5rem;
+}
+
+div.card img {
+    object-fit: cover;
+}
+
+div.card:hover {
+
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.6);
+}
+
+footer {
+   
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 2.4rem;
+    background-color: bisque;
+    color: #222;
+}
+
+/* #footerContacto {
+    height: 120px
+} */
+
+footer a {
+    color: #222;
+    display: flex;
+
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: aliceblue;
+
+}
+
+footer li {
+    background-color: bisque
+}
+
+footer p {
+    float: right;
+}
